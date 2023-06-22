@@ -1,0 +1,37 @@
+<html>
+  <head>
+
+    <title>Knadi Slot</title>
+    <script type="text/javascript" src="slots.js"></script>
+    <link rel="stylesheet" type="text/css" href="slots.css" />
+
+  </head>
+  <body>
+
+    <div id="wrap">
+
+      <div id="game">
+        <canvas id="slots" width="160" height="160"></canvas><br />
+        <select id="spinType">
+          <option value="1">1 Line</option>
+          <option value="3">3 Lines</option>
+          <option value="5">5 Lines</option>
+        </select>
+        <button id="autoSpinButton" type="button" onclick="autoSpin();">Auto Spin</button>
+
+      </div>
+
+      <div id="info">
+        <p id="credits"></p>
+        <p id="log"></p>
+      </div>
+
+
+    </div>
+
+    <script type="text/javascript">
+      init();
+    </script>
+
+  </body>
+</html>
